@@ -51,7 +51,7 @@ function DisplayInfo(){
     visit = 0;
     visit ++ ;
     SetCookie("visit", visit, expdate, "/", null, false);
-    document.write("<h5>Esta é a sua "+ visit + "ª visita</h5>"); }
+    document.write("<div class="container"><h5>Esta é a sua "+ visit + "ª visita</h5></div>"); }
 
 document.onload=DisplayInfo();
 
