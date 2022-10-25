@@ -18,6 +18,14 @@ h1, h5 {
     padding: 1rem;
 }
 
+#dumdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    color: #ffff;
+}
+
 #btn-click {
     background-color: rgb(23, 148, 98);
     color: #ffff;
