@@ -1,4 +1,3 @@
-<script type="text/javascript">
 
 var counter = document.querySelector("#clicksCounter");
 
@@ -68,4 +67,3 @@ function DisplayInfo(){
 
 document.onload=DisplayInfo();
 
-</script>
