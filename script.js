@@ -13,18 +13,6 @@ reset.addEventListener("click", function(){
     counter.textContent = "0";
 });
 
-function ctck(){
-    var sds = document.getElementById("dum");
-    if(sds == null){
-        alert("Esta utilizando un paquete gratuito. No esta autorizado para retirar la etiqueta.");
-    }
-    var sdss = document.getElementById("dumdiv");
-    if(sdss == null){
-        alert("Esta utilizando un paquete gratuito. No esta autorizado para retirar la etiqueta.");
-    }
-}
-
-document.onload="ctck()";
 function getCookieVal (offset){
     var endstr = document.cookie.indexOf (";", offset);
     if (endstr == -1)
@@ -63,7 +51,7 @@ function DisplayInfo(){
     visit = 0;
     visit ++ ;
     SetCookie("visit", visit, expdate, "/", null, false);
-    document.write("Usted ha visitado esta pagina "+ visit + " veces"); }
+    document.write("Esta é a sua "+ visit + "ª visita"); }
 
 document.onload=DisplayInfo();
 
